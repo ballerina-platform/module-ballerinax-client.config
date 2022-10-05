@@ -33,7 +33,7 @@ import ballerina/http;
 # + proxy - Proxy server related options
 # + validation - Enables the inbound payload validation functionalty which provided by the constraint package. 
 # Enabled by default
-public type ConnectionConfig record {|
+public type ConnectionConfig record {
     AuthConfig auth?;
     http:HttpVersion httpVersion = http:HTTP_2_0;
     ClientHttp1Settings http1Settings?;
@@ -49,7 +49,7 @@ public type ConnectionConfig record {|
     http:ClientSecureSocket secureSocket?;
     http:ProxyConfig proxy?;
     boolean validation = true;
-|};
+};
 
 # Defines the authentication configurations.
 public type AuthConfig http:CredentialsConfig|http:BearerTokenConfig|http:JwtIssuerConfig|
