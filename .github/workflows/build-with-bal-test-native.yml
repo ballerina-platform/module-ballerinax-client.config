@@ -31,5 +31,5 @@ jobs:
               with:
                 version: latest
 
-            - name: GrallVM Ballerina Build
-              run: bal build --native
+            - name: GraalVM Ballerina Build
+              run: bal build --graalvm
