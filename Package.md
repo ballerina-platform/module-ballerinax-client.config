@@ -6,7 +6,7 @@ The `ballerinax/client.config` is a [Ballerina](https://ballerina.io/) library w
 ### Compatibility
 |                     | Version            |
 |---------------------|--------------------|
-| Ballerina Language  | Swan Lake 2201.2.0 |
+| Ballerina Language  | Swan Lake 2201.8.0 |
 
 ## Report issues
 To report bugs, request new features, start new discussions, view project boards, etc., go to the [Ballerina Extended Library repository](https://github.com/ballerina-platform/ballerina-extended-library)
