@@ -8,6 +8,14 @@ The Client Config library contains common client configuration utilities and typ
 - Reusable utility functions for client initialization
 - Standardized configuration patterns for connector development
 
+### Importing the module
+
+`config` is a reserved word, so the module name must be escaped with a single quote in the import. Always import this package with an alias and use that alias to refer to it in your code:
+
+```ballerina
+import ballerinax/'client.config as config;
+```
+
 ### Compatibility
 |                     | Version            |
 |---------------------|--------------------|
